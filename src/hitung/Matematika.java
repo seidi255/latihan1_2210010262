@@ -12,9 +12,24 @@ public class Matematika {
        this.bil2 =bil2;
    }
    
-   //membuat method set penjumlahan
+   //membuat method setpenjumlahan
    double setpenjumlahan(){
        return bil1 + bil2;
+   }
+   
+   //membuat method setpengurangan
+   double setpengurangan(){
+       return bil1 - bil2;
+   }
+   
+   //membuat method setperkalian
+   double setperkalian(){
+       return bil1 * bil2;
+   }
+   
+   //membuat method setpembagian
+   double setpembagian(){
+       return bil1 / bil2;
    }
     
 }
